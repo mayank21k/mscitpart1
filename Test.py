@@ -1,8 +1,8 @@
-from Main import Add
+from Main1 import Add
 
 def TestAdd():
   assert Add(3,4)==9
   print("Add Function works correctly")
 
-If__name__=='__main__':
+if __name__=='__main__':
   TestAdd()
